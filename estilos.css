@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-size: 15px;
+  background: #F5E6D3; /* crema suau */
+  color: #2B2B2B;
+}
+
+/* LINKS */
+a{
+  color: #7B1E1E;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover{
+  color: #C2A878;
+}
+
+/* HEADER */
+.cabecera{
+  position: sticky;
+  top: 0;
+  background: #4B2E2E; /* marró cafè */
+  padding: 15px 0;
+  z-index: 1000;
+  border-bottom: 2px solid #C2A878;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* NAVBAR */
+.barra-navegacion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: #F5E6D3;
+}
+
+.logo span{
+  color: #C2A878;
+}
+
+/* MENÚ */
+.enlaces-navegacion a{
+  margin-left: 20px;
+  font-weight: 500;
+  color: #F5E6D3;
+}
+
+.enlaces-navegacion a:hover{
+  color: #C2A878;
+}
+
+/* HERO (SENSE IMATGE) */
+.hero{
+  height: 60vh;
+  background: #F5E6D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECCIONS */
+.seccion{
+  padding: 60px 20px;
+}
+
+/* BOTÓ (CORREGIT PERQUÈ ES VEGIN LES LLETRES) */
+.btn-custom{
+  background: #4B2E2E;
+  color: #FFFFFF;
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: 2px solid #C2A878;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-custom:hover{
+  background: #7B1E1E;
+  border: 2px solid #7B1E1E;
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+.pie{
+  background: #4B2E2E;
+  color: #F5E6D3;
+  text-align: center;
+  padding: 20px;
+}
